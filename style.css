@@ -1,0 +1,233 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.container-nav {
+    background-color: burlywood;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 1px;
+      
+}
+        
+
+
+nav ul li {
+    display: inline-block;
+    width: 22%;
+    list-style-type: none;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 0.5px white;
+    text-align: left;
+    margin-left: 0;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: indianred;
+    font-weight: bold;    
+    
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: none;
+   
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+.container {
+    border: 5px solid burlywood;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.colors-container {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    min-height: 100px;
+}
+
+.color-IndianRed {
+    background-color: #cd5c5c;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.color-Khaki {
+    background-color: #f0e68c;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.color-Wheat {
+    background-color: #fafad2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.color-FireBrick {
+    background-color: #b22222;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.color-label, .color-hex, .color-rgb {
+    padding: 5px;
+    margin: 0;
+}
+
+div .color-panel.color-Khaki .color-label, div .color-panel.color-Wheat .color-label {
+    color: black;
+}
+
+.color-label {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fonts-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align: left;
+    margin: 0 10px 0 10px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.fonts-container .lilita {
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.fonts-container .lilita-bold {
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+}
+
+.fonts-container .lilita-italic {
+    font-family: 'Lilita One', cursive;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.fonts-container .barlow {
+    font-family: 'Barlow', sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.fonts-container .barlow-bold {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+
+.fonts-container .barlow-italic {
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.style-container {
+    width: auto;
+    text-align: left;
+    margin: 10px;
+    min-height: 100px;
+}
+
+.button-container {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    min-height: 100px;
+}
+
+.button-flat{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #cd5c5c;
+    border-radius: 5px;
+    color:#f0e68c;
+    background-color:#b22222;
+    cursor: pointer;
+    margin-top: 0;
+    font-family: barlow;
+    font-weight: 600;
+}
+
+.button-flat:hover {
+    border: 2.5px solid khaki;
+    border-radius: 5px;
+    color:#f0e68c;
+    background-color:#b22222;
+    cursor: pointer;
+    font-size: 105%;
+}
+
+.button-flat:active {
+    border: 2.5px solid rgb(168, 33, 33);
+}
+
+.button-skeuomorphic {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color:#f0e68c;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#b22222;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button-skeuomorphic:hover {
+  background-color: rgb(187, 4, 4);
+}
+
+.button-skeuomorphic:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
